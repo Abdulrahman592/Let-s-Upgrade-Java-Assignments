@@ -1,0 +1,13 @@
+Abdul Rahman A
+Day 2-Assignment
+
+class Student{
+	public static void main(String args[]){
+		Scanner scan=new Scanner(System.in);
+		int a,b,c;
+		a=scan.nextInt();
+		b=scan.nextInt();
+		c=a+b;
+		System.out.println(c);
+	}
+}
