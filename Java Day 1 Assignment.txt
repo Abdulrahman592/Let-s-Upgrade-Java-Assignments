@@ -12,3 +12,23 @@ Compilers:
 * Compilers usually take a large amount of time to analyze the source code. However, the overall execution time is comparatively faster than interpreters.
 * Generates Object Code which further requires linking, hence requires more memory.
 * Programming languages like C, C++, Java use compilers.
+
+
+____________________________________________________________________________
+
+Program Day 1:
+
+class Student{
+	public static void main(String args[]){
+		Scanner scan=new Scanner(System.in);
+		int roll;
+		String name;
+		float marks;
+		roll=scan.nextInt();
+		name=scan.next();
+		marks=scan.nextFloat();
+		System.out.println(roll);
+		System.out.println(name);
+		System.out.println(marks);
+	}
+}
